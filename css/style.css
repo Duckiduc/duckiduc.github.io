@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
 
-/* General
-==================================================*/
-
 html,
 body {
     height: 100%;
@@ -47,13 +44,11 @@ a {
 }
 
 .color {
-    color: #ffbf00;
+    color: #FF813F;
     font-size: 11px;
 }
 
-
-/* typography
-==================================================*/
+/* typography ==================================================*/
 
 h1 {
     color: #393939;
@@ -66,12 +61,10 @@ h3 {
 }
 
 h5 {
-    color: #ffbf00;
+    color: #FF813F;
 }
 
-
-/* preloader
-==================================================*/
+/* preloader ==================================================*/
 
 #preloader {
     position: fixed;
@@ -79,10 +72,8 @@ h5 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f5f5f5;
-    /* change if the mask should be a color other than white */
+    background-color: #F5F5F5;
     z-index: 1000;
-    /* makes sure it stays on top */
 }
 
 .pre-container {
@@ -108,7 +99,7 @@ h5 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #ffbf00;
+    background-color: #FF813F;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -144,9 +135,7 @@ h5 {
     }
 }
 
-
-/* headr
-==================================================*/
+/* header ==================================================*/
 
 .box-header {
     position: absolute;
@@ -206,7 +195,7 @@ h5 {
     top: 0;
     height: 100%;
     width: 50px;
-    background-color: #fff;
+    background-color: #FFF;
 }
 
 .box-primary-nav-trigger .box-menu-text {
@@ -342,7 +331,7 @@ h5 {
     border-radius: 0.25em;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     font-weight: bold;
 }
@@ -352,11 +341,11 @@ h5 {
 
 .no-touch .box-primary-nav a:hover {
     text-decoration: none;
-    color: #ddd;
+    color: #DDD;
 }
 
 .box-primary-nav .box-label {
-    color: #ffbf00;
+    color: #FF813F;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -388,9 +377,7 @@ h5 {
     font-size: 18px;
 }
 
-
-/* box-intro
-==================================================*/
+/* box-intro ==================================================*/
 
 .box-intro {
     text-align: center;
@@ -410,7 +397,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #ffbf00 !important;
+    color: #FF813F !important;
 }
 
 .box-intro h5 {
@@ -419,7 +406,6 @@ b i:last-child {
     color: #999;
     line-height: 1.7
 }
-
 
 /* mouse effect */
 
@@ -494,7 +480,6 @@ b i:last-child {
         transform: translateY(20px);
     }
 }
-
 
 /* text rotate */
 
@@ -652,9 +637,7 @@ b i:last-child {
     }
 }
 
-
-/* portfolio section
-==================================================*/
+/* portfolio section ==================================================*/
 
 .portfolio .categories-grid span {
     font-size: 30px;
@@ -669,7 +652,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a {
     display: inline-block;
-    color: #60606e;
+    color: #60606E;
     padding: 0 10px;
     margin: 0 10px;
     -webkit-transition: all .2s ease-in-out .2s;
@@ -683,7 +666,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #ffbf00;
+    background-color: #FF813F;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -728,7 +711,7 @@ b i:last-child {
 
 .portfolio_item .portfolio_item_hover .item_info span {
     display: block;
-    color: #fff;
+    color: #FFF;
     font-size: 18px;
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
@@ -740,7 +723,7 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #ffbf00;
+    background-color: #FF813F;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
@@ -790,14 +773,12 @@ b i:last-child {
     padding-top: 55px;
 }
 
-
-/* footer
-==================================================*/
+/* footer ==================================================*/
 
 footer {
     padding: 30px 0;
     text-align: center;
-    background: #f5f5f5
+    background: #F5F5F5
 }
 
 .copyright {
@@ -809,9 +790,7 @@ footer img {
     margin: 0 auto;
 }
 
-
-/* backto top
-==================================================*/
+/* backto top ==================================================*/
 
 .cd-top {
     display: inline-block;
@@ -823,7 +802,7 @@ footer img {
     font-size: 20px;
     right: 10px;
     text-align: center;
-    color: #fff;
+    color: #FFF;
     background: rgba(255, 191, 0, 0.8);
     visibility: hidden;
     opacity: 0;
@@ -839,7 +818,6 @@ footer img {
 }
 
 .cd-top.cd-is-visible {
-    /* the button becomes visible */
     visibility: visible;
     opacity: 1;
 }
@@ -850,14 +828,12 @@ footer img {
 
 .no-touch .cd-top:hover,
 .no-touch .cd-top:focus {
-    background-color: #ffbf00;
+    background-color: #FF813F;
     opacity: 1;
-    color: #fff;
+    color: #FFF;
 }
 
-
-/* About page
-==================================================*/
+/* About page ==================================================*/
 
 .top-bar {
     color: #333;
@@ -917,9 +893,7 @@ footer img {
     color: #888;
 }
 
-
-/* Services page
-==================================================*/
+/* Services page ==================================================*/
 
 .size-50 {
     font-size: 50px;
@@ -933,9 +907,7 @@ footer img {
     margin-top: 0;
 }
 
-
-/* contact page
-==================================================*/
+/* contact page ==================================================*/
 
 .details-text i {
     margin-right: 10px;
@@ -957,7 +929,7 @@ footer img {
     float: left;
     z-index: 2;
     font-size: 14px;
-    color: #9a9a9a;
+    color: #9A9A9A;
     resize: none;
 }
 
@@ -969,7 +941,7 @@ footer img {
     transform: translateY(-50%);
     font-size: 12px;
     text-transform: uppercase;
-    color: #cdcdcd;
+    color: #CDCDCD;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     z-index: 1;
@@ -993,7 +965,7 @@ footer img {
     background-color: transparent;
     z-index: 2;
     font-size: 14px;
-    color: #9a9a9a;
+    color: #9A9A9A;
 }
 
 .input-contact > span {
@@ -1004,7 +976,7 @@ footer img {
     transform: translateY(-50%);
     font-size: 12px;
     text-transform: uppercase;
-    color: #cdcdcd;
+    color: #CDCDCD;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     z-index: 1;
@@ -1012,11 +984,11 @@ footer img {
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #ffbf00;
+    color: #FF813F;
     font-size: 10px;
     top: 0px;
     left: 5px;
-    background-color: #fff;
+    background-color: #FFF;
     padding: 5px
 }
 
@@ -1033,11 +1005,11 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #ffbf00;
+    background: #FF813F;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
-    color: #fff;
+    color: #FFF;
     font-size: 21px;
 }
 
@@ -1047,10 +1019,10 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #ffbf00;
+    background: #FF813F;
     padding: 10px 50px;
     border-radius: 0;
-    color: #fff;
+    color: #FFF;
     margin-top: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1059,13 +1031,11 @@ textarea:focus {
 
 .btn-box:hover,
 .btn-box:focus {
-    background: #F5B700;
-    color: #fff;
+    background: #F5B400;
+    color: #FFF;
 }
 
-
-/* single project page
-==================================================*/
+/* single project page ==================================================*/
 
 .cat-ul {
     padding-left: 0;
@@ -1074,12 +1044,10 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #ffbf00;
+    color: #FF813F;
 }
 
-
-/* Responsive media queries
-==================================================*/
+/* Responsive media queries ==================================================*/
 
 @media (max-width: 991px) {
     .portfolio .categories-grid span {
