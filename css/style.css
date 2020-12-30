@@ -22,6 +22,10 @@ body {
     padding: 100px 0;
 }
 
+.secondary-container {
+    padding: 10px 0;
+}
+
 .center {
     text-align: center;
 }
@@ -53,6 +57,11 @@ a {
 h1 {
     color: #393939;
     font-size: 60px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
     text-transform: uppercase;
 }
 
