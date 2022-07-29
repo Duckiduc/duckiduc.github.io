@@ -4,6 +4,7 @@
   import Loader from "../components/Loader.svelte";
   import Header from "../components/Header.svelte";
   import Menu from "../components/Menu.svelte";
+  import Mouse from "../components/Mouse.svelte"
 </script>
 
 <svelte:head>
@@ -22,9 +23,7 @@
         <Headline />
         <h5>ladies & gentlemen, welcome to my portfolio.</h5>
       </div>
-      <div class="mouse">
-        <div class="scroll" />
-      </div>
+      <Mouse />
     </section>
   </div>
   <div class="portfolio-div">
