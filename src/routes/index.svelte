@@ -1,5 +1,5 @@
 <script>
-  import logo from "../assets/img/active-storage.jpg";
+  import logo from "../assets/img/logo.png";
   import Headline from "../components/HeadlineText.svelte";
   import Loader from "../components/Loader.svelte"
 </script>
@@ -20,7 +20,7 @@
     <header class="box-header">
       <div class="box-logo">
         <a href="index.html"
-          ><img src="img/logo.png" width="100" alt="Logo" /></a
+          ><img src={logo} width="100" alt="Logo" /></a
         >
       </div>
       <a class="box-primary-nav-trigger" href="#0">
