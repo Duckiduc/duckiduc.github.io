@@ -4,7 +4,7 @@
   import Loader from "../components/Loader.svelte";
   import Header from "../components/Header.svelte";
   import Menu from "../components/Menu.svelte";
-  import Mouse from "../components/Mouse.svelte"
+  import Mouse from "../components/Mouse.svelte";
 </script>
 
 <svelte:head>
@@ -199,21 +199,21 @@
 
 <style>
   .box-intro {
-  text-align: center;
-  display: table;
-  height: 100vh;
-  width: 100%;
-}
+    text-align: center;
+    display: table;
+    height: 100vh;
+    width: 100%;
+  }
 
-.box-intro .table-cell {
-  display: table-cell;
-  vertical-align: middle;
-}
+  .box-intro .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
 
-.box-intro h5 {
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  color: #999;
-  line-height: 1.7;
-}
+  .box-intro h5 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #999;
+    line-height: 1.7;
+  }
 </style>
