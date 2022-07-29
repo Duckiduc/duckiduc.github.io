@@ -1,5 +1,6 @@
 <script>
   import logo from '../assets/img/active-storage.jpg';
+  import Headline from '../components/HeadlineText.svelte'
 </script>
 
 <svelte:head>
@@ -48,16 +49,7 @@
     </nav>
     <section class="box-intro">
       <div class="table-cell">
-        <h1 class="box-headline letters rotate-2">
-          <span class="box-words-wrapper">
-            <b class="is-visible">code.</b>
-            <b>&nbsp;&nbsp;&nbsp;&nbsp;webdesign.</b>
-            <b>photography.</b>
-          </span>
-        </h1>
-        <h1 class="text-xxxl text-anim text-anim--clip js-text-anim">
-          We <span class="text-anim__wrapper js-text-anim__wrapper"><i class="text-anim__word text-anim__word--in js-text-anim__word">design</i><i class="text-anim__word js-text-anim__word">develop</i><i class="text-anim__word js-text-anim__word">create</i></span> digital experiences
-        </h1>
+        <Headline></Headline>
         <h5>ladies & gentlemen, welcome to my portfolio.</h5>
       </div>
       <div class="mouse">
