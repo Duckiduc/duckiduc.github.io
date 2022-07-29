@@ -8,7 +8,7 @@
     <div class="message smallFontSize">
       <p>code<span class="point">.</span></p>
       <p>webdesign<span class="point">.</span></p>
-      <p>creating<span class="point">.</span></p>
+      <p>3D<span class="point">.</span></p>
     </div>
     {/if}
   </MediaQuery>
@@ -18,7 +18,7 @@
     <div class="message mediumFontSize">
       <p>code<span class="point">.</span></p>
       <p>webdesign<span class="point">.</span></p>
-      <p>creating<span class="point">.</span></p>
+      <p>3D<span class="point">.</span></p>
     </div>
     {/if}
   </MediaQuery>
@@ -28,7 +28,7 @@
     <div class="message largeFontSize">
       <p>code<span class="point">.</span></p>
       <p>webdesign<span class="point">.</span></p>
-      <p>creating<span class="point">.</span></p>
+      <p>3D<span class="point">.</span></p>
     </div>
     {/if}
   </MediaQuery>
@@ -38,7 +38,7 @@
     <div class="message default">
       <p>code<span class="point">.</span></p>
       <p>webdesign<span class="point">.</span></p>
-      <p>creating<span class="point">.</span></p>
+      <p>3D<span class="point">.</span></p>
     </div>
     {/if}
   </MediaQuery>
