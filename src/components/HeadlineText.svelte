@@ -88,7 +88,7 @@
     font-weight: 900;
     overflow: hidden;
     position: absolute;
-    animation: openclose 12s ease-in-out infinite;
+    animation: openclose 9s ease-in-out infinite;
     width: 100%;
   }
 
@@ -127,7 +127,7 @@
       top: -285px;
       width: 70%;
     }
-    66% {
+    70% {
       top: -285px;
       width: 0;
     }
