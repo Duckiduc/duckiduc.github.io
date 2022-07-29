@@ -1,6 +1,7 @@
 <script>
   import logo from "../assets/img/active-storage.jpg";
   import Headline from "../components/HeadlineText.svelte";
+  import Loader from "../components/Loader.svelte"
 </script>
 
 <svelte:head>
@@ -10,19 +11,11 @@
   <script src="/scripts/util.js"></script>
   <script src="/scripts/animated-headline.js"></script>
   <script src="/scripts/isotope.pkgd.min.js"></script>
-  <script src="/scripts/custom.js"></script>
   <link href="/styles/animated-headline.css" rel="stylesheet" />
 </svelte:head>
 
 <div>
-  <div id="preloader">
-    <div class="pre-container">
-      <div class="spinner">
-        <div class="double-bounce1" />
-        <div class="double-bounce2" />
-      </div>
-    </div>
-  </div>
+  <Loader></Loader>
   <div class="container-fluid">
     <header class="box-header">
       <div class="box-logo">
