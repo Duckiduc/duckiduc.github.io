@@ -1,6 +1,6 @@
 <script>
-  import logo from '../assets/img/active-storage.jpg';
-  import Headline from '../components/HeadlineText.svelte'
+  import logo from "../assets/img/active-storage.jpg";
+  import Headline from "../components/HeadlineText.svelte";
 </script>
 
 <svelte:head>
@@ -11,49 +11,72 @@
   <script src="/scripts/animated-headline.js"></script>
   <script src="/scripts/isotope.pkgd.min.js"></script>
   <script src="/scripts/custom.js"></script>
-  <link href="/styles/animated-headline.css" rel="stylesheet">
+  <link href="/styles/animated-headline.css" rel="stylesheet" />
 </svelte:head>
 
 <div>
   <div id="preloader">
     <div class="pre-container">
       <div class="spinner">
-        <div class="double-bounce1"></div>
-        <div class="double-bounce2"></div>
+        <div class="double-bounce1" />
+        <div class="double-bounce2" />
       </div>
     </div>
   </div>
   <div class="container-fluid">
     <header class="box-header">
       <div class="box-logo">
-        <a href="index.html"><img src="img/logo.png" width="100" alt="Logo"></a>
+        <a href="index.html"
+          ><img src="img/logo.png" width="100" alt="Logo" /></a
+        >
       </div>
       <a class="box-primary-nav-trigger" href="#0">
-        <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+        <span class="box-menu-text">Menu</span><span class="box-menu-icon" />
       </a>
     </header>
     <nav>
       <ul class="box-primary-nav">
         <li class="box-label">What - When - Where - Who</li>
-        <li><a href="index.html">Home</a><i class="ion-ios-circle-filled color"></i></li>
+        <li>
+          <a href="index.html">Home</a><i class="ion-ios-circle-filled color" />
+        </li>
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="about.html">About me</a></li>
         <li><a href="contact.html">Contact me</a></li>
         <li><a href="tools.html">Tools / Gear / Softwares I use</a></li>
         <li>My services are currently unavailable.</li>
         <li class="box-label">Keep up with my work</li>
-        <li class="box-social"><a href="https://github.com/Duckiduc"><i class="ion-social-github"></i></a></li>
-        <li class="box-social"><a href="https://linkedin.com/in/duc-thomas-nguyen"><i class="ion-social-linkedin"></i></a></li>
-        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ducki" data-color="#FF813F" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#FFFFFF" data-coffee-color="#FFDD00" ></script>
+        <li class="box-social">
+          <a href="https://github.com/Duckiduc"
+            ><i class="ion-social-github" /></a
+          >
+        </li>
+        <li class="box-social">
+          <a href="https://linkedin.com/in/duc-thomas-nguyen"
+            ><i class="ion-social-linkedin" /></a
+          >
+        </li>
+        <script
+          type="text/javascript"
+          src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+          data-name="bmc-button"
+          data-slug="ducki"
+          data-color="#FF813F"
+          data-emoji=""
+          data-font="Cookie"
+          data-text="Buy me a coffee"
+          data-outline-color="#000000"
+          data-font-color="#FFFFFF"
+          data-coffee-color="#FFDD00"></script>
       </ul>
     </nav>
     <section class="box-intro">
       <div class="table-cell">
-        <Headline></Headline>
+        <Headline />
         <h5>ladies & gentlemen, welcome to my portfolio.</h5>
       </div>
       <div class="mouse">
-        <div class="scroll"></div>
+        <div class="scroll" />
       </div>
     </section>
   </div>
@@ -206,14 +229,24 @@
       </div>
     </div>
   </div>
-  
+
   <footer>
     <div class="container-fluid">
       <p class="copyright">© Nguyen Duc-Thomas 2020</p>
-      Images freely provided by <a href="https://unsplash.com">Unsplash</a>. The logos used are the property of their respective owners.
+      Images freely provided by<a href="https://unsplash.com">Unsplash</a>. The
+      logos used are the property of their respective owners.
     </div>
   </footer>
-  <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
-  
-  <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ducki" data-description="Support me on Buy me a coffee!" data-message="Thanks for passing by! You can support me with a coffee ☕" data-color="#FF813F" data-position="left" data-x_margin="18" data-y_margin="18"></script>
+  <a href="#0" class="cd-top"><i class="ion-android-arrow-up" /></a>
+
+  <script
+    data-name="BMC-Widget"
+    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="ducki"
+    data-description="Support me on Buy me a coffee!"
+    data-message="Thanks for passing by! You can support me with a coffee ☕"
+    data-color="#FF813F"
+    data-position="left"
+    data-x_margin="18"
+    data-y_margin="18"></script>
 </div>
