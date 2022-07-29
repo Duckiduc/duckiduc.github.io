@@ -196,3 +196,24 @@
     data-x_margin="18"
     data-y_margin="18"></script>
 </div>
+
+<style>
+  .box-intro {
+  text-align: center;
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+
+.box-intro .table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.box-intro h5 {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #999;
+  line-height: 1.7;
+}
+</style>
