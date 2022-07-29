@@ -1,3 +1,7 @@
+<script>
+  import RectangleButton from "./buyMeACoffee/RectangleButton.svelte";
+</script>
+
 <svelte:head>
   <script src="/scripts/menu.js"></script>
   <link href="/styles/menu.css" rel="stylesheet" />
@@ -23,17 +27,6 @@
         ><i class="ion-social-linkedin" /></a
       >
     </li>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
-      data-name="bmc-button"
-      data-slug="ducki"
-      data-color="#FF813F"
-      data-emoji=""
-      data-font="Cookie"
-      data-text="Buy me a coffee"
-      data-outline-color="#000000"
-      data-font-color="#FFFFFF"
-      data-coffee-color="#FFDD00"></script>
+    <RectangleButton />
   </ul>
 </nav>
