@@ -1,0 +1,35 @@
+{
+	"name": "portfolio",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview",
+		"prepare": "svelte-kit sync",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"@typescript-eslint/eslint-plugin": "^5.31.0",
+		"@typescript-eslint/parser": "^5.31.0",
+		"eslint": "^8.20.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.2.4",
+		"eslint-plugin-promise": "^6.0.0",
+		"prettier": "2.7.1",
+		"svelte": "^3.49.0",
+		"svelte-check": "^2.2.6",
+		"svelte-preprocess": "^4.10.1",
+		"tslib": "^2.3.1",
+		"typescript": "~4.6.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"sveltestrap": "^5.9.0"
+	}
+}
