@@ -1,0 +1,174 @@
+[
+  {
+    "title": "RAILS ACTIVE STORAGE WITH AWS",
+    "phrase": "Project to get you started with Active Storage and its services",
+    "thumbnail": "/img/active-storage/active-storage.png",
+    "image": "/img/active-storage/project_active-storage.png",
+    "gallery": [],
+    "description": "Once I had a project related to Rails and its Active Storage that I had to link to AWS S3 Storage. So I did a small Rails project using Active Storage and the AWS S3 Storage service. It's a content manager like Google Drive (without the design). You can add, modify and delete content. The project is available on my GitHub with the necessary documentation.",
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "Ruby on Rails"
+      },
+      {
+        "name": "AWS S3 Storage"
+      }
+    ]
+  },
+  {
+    "title": "MACKEE TRADING APP DESIGN",
+    "phrase": "Set of the app's mockups",
+    "thumbnail": "/img/mackee/mackee.gif",
+    "image": "/img/mackee/mockup-global.jpg",
+    "gallery": [
+      {
+        "url": "/img/mackee/mockup-1.jpg"
+      },
+      {
+        "url": "/img/mackee/mockup-2.jpg"
+      },
+      {
+        "url": "/img/mackee/mockup-3.jpg"
+      },
+      {
+        "url": "/img/mackee/mockup-4.jpg"
+      },
+      {
+        "url": "/img/mackee/mockup-5.jpg"
+      }
+    ],
+    "description": "Mackee was co-founded by a group of 5 students of which I was part as Lead Designer. It is a mobile application to learn trading and all its subtleties in a fun way. Mackee isn't available on app stores and some of the mockups are only on my portfolio.",
+    "tags": [
+      {
+        "name": "Design"
+      },
+      {
+        "name": "Mobile App"
+      },
+      {
+        "name": "Mockups"
+      }
+    ]
+  },
+  {
+    "title": "MACKEE'S GRAPHIC CHART",
+    "phrase": "A complete graphic chart of our Mobile App Mackee.",
+    "thumbnail": "/img/mackee-graphic-chart/mackee-chart.jpg",
+    "image": "/img/mackee-graphic-chart/cover.jpg",
+    "gallery": [],
+    "description": "Mackee was co-founded by a group of 5 students of which I was part as Lead Designer. It is a mobile application to learn trading and all its subtleties in a fun way. This graphic chart is one that I like the most.",
+    "tags": [
+      {
+        "name": "Design"
+      },
+      {
+        "name": "Graphic Chart"
+      }
+    ]
+  },
+  {
+    "title": "MACKEE WEBSITE DESIGN",
+    "phrase": "Set of the website's mockups",
+    "thumbnail": "/img/mackee-website.jpg",
+    "image": "/img/mackee-website.jpg",
+    "gallery": [],
+    "description": "Mackee was co-founded by a group of 5 students of which I was part as Lead Designer. It is a mobile application to learn trading and all its subtleties in a fun way. Mackee's website is available at www.mackee.app. Some of the mockups are only on my portfolio.",
+    "tags": [
+      {
+        "name": "Web Design"
+      },
+      {
+        "name": "Website"
+      },
+      {
+        "name": "Mockups"
+      }
+    ]
+  },
+  {
+    "title": "PLAYLISTS COVERS - VIBES SERIE",
+    "phrase": "Vibing with my playlists.",
+    "thumbnail": "/img/vibes-covers/vibes-cover.jpg",
+    "image": "/img/vibes-covers/cover.jpg",
+    "gallery": [
+      {
+        "url": "/img/vibes-covers/bitches-vibes.jpg"
+      },
+      {
+        "url": "/img/vibes-covers/bunker-vibes.jpg"
+      },
+      {
+        "url": "/img/vibes-covers/flashback-vibes.jpg"
+      },
+      {
+        "url": "/img/vibes-covers/in-da-house-vibes.jpg"
+      },
+      {
+        "url": "/img/vibes-covers/kaytra-vibes.jpg"
+      },
+      {
+        "url": "/img/vibes-covers/mister-vibes.jpg"
+      },
+      {
+        "url": "/img/vibes-covers/periph-vibes.jpg"
+      }
+    ],
+    "description": "I had too many unstyled playlists on Spotify. I needed to do something to make it more appreciable. This is Vibes Serie.",
+    "tags": [
+      {
+        "name": "Design"
+      },
+      {
+        "name": "Music"
+      }
+    ]
+  },
+  {
+    "title": "SONS OF EFREI - EVENT POSTERS",
+    "phrase": "EFREI Vroum Vroum needed posters",
+    "thumbnail": "/img/sons-of-efrei-event-posters/sons-event-poster.jpg",
+    "image": "/img/sons-of-efrei-posters/cover.jpg",
+    "gallery": [],
+    "description": "The Sons of EFREI Motorcycle Club organization needed posters to promote a motorcycle initiation at EFREI Paris.",
+    "tags": [
+      {
+        "name": "Design"
+      },
+      {
+        "name": "Ads"
+      },
+      {
+        "name": "Event"
+      }
+    ]
+  },
+  {
+    "title": "CANYON - APP CONCEPT",
+    "phrase": "Canyon App Concept because they don't have a mobile app.",
+    "thumbnail": "/videos/canyon-app-concept.jpg",
+    "image": "/videos/canyon-app-concept/canyon-1.mp4",
+    "gallery": [
+      {
+        "url": "/videos/canyon-app-concept/canyon-1.mp4"
+      },
+      {
+        "url": "/videos/canyon-app-concept/canyon-2.mp4"
+      }
+    ],
+    "description": "Being a huge fan of mountain bike and the owner of a Canyon bike, I had to do a concept app for the brand I love. This was the first time I used Sketch software.",
+    "tags": [
+      {
+        "name": "Design"
+      },
+      {
+        "name": "Mockup"
+      },
+      {
+        "name": "Mobile App"
+      }
+    ]
+  }
+]
