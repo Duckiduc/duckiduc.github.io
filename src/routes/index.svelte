@@ -31,7 +31,7 @@
       <div class="no-padding portfolio_container">
         <div class="col-md-3 col-sm-6">
           <a href="projects/rails-active-storage.html" class="portfolio_item">
-            <img loading="lazy" src={logo} alt="" class="img-responsive" />
+            <img loading="lazy" src="/logo.png" alt="" class="img-responsive" />
             <div class="portfolio_item_hover">
               <div class="portfolio-border clearfix">
                 <div class="item_info">
