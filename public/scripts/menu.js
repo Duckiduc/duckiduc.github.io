@@ -1,3 +1,5 @@
+// import { jQuery } from "./jquery-2.1.1.js"
+
 jQuery(document).ready(function ($) {
   const MQL = 1170;
   if ($(window).width() > MQL) {
@@ -28,6 +30,29 @@ jQuery(document).ready(function ($) {
     );
   }
   $(".box-primary-nav-trigger").on("click", function () {
+    $(".box-menu-icon").toggleClass("is-clicked");
+    $(".box-header").toggleClass("menu-is-open");
+    if ($(".box-primary-nav").hasClass("is-visible")) {
+      $(".box-primary-nav")
+        .removeClass("is-visible")
+        .one(
+          "webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
+          function () {
+            $("body").removeClass("overflow-hidden");
+          }
+        );
+    } else {
+      $(".box-primary-nav")
+        .addClass("is-visible")
+        .one(
+          "webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
+          function () {
+            $("body").addClass("overflow-hidden");
+          }
+        );
+    }
+  });
+  $(".nav-trigger").on("click", function () {
     $(".box-menu-icon").toggleClass("is-clicked");
     $(".box-header").toggleClass("menu-is-open");
     if ($(".box-primary-nav").hasClass("is-visible")) {
