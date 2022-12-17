@@ -25,11 +25,15 @@
       <a href="https://github.com/Duckiduc"><i class="ion-social-github" /></a>
     </li>
     <li class="box-social">
-      <a href="https://linkedin.com/in/duc-thomas-nguyen"
-        ><i class="ion-social-linkedin" /></a
-      >
+      <a href="https://linkedin.com/in/duc-thomas-nguyen"><i class="ion-social-linkedin" /></a>
     </li>
     <RectangleButton />
-    <iframe src="https://github.com/sponsors/Duckiduc/button" title="Sponsor Duckiduc" height="35" width="116" style="border: 0;"></iframe>
+    <iframe
+      src="https://github.com/sponsors/Duckiduc/button"
+      title="Sponsor Duckiduc"
+      height="35"
+      width="116"
+      style="border: 0;"
+    />
   </ul>
 </nav>
