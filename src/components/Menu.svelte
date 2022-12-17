@@ -14,7 +14,7 @@
       <a href="/">Home</a>
       <!-- <i class="ion-ios-circle-filled color" /> -->
     </li>
-    <li class="nav-trigger"><a href="projects">Portfolio</a></li>
+    <li class="nav-trigger"><a data-sveltekit-reload href="projects">Portfolio</a></li>
     <li class="nav-trigger"><a href="about">About me</a></li>
     <li class="nav-trigger"><a href="contact">Contact me</a></li>
     <li class="nav-trigger"><a href="tools">Tools / Gear / Softwares I use</a></li>
