@@ -1,8 +1,11 @@
 <script>
-// @ts-nocheck
-  import { page } from '$app/stores'
-  import projects from "/src/data/projects.json"
-  const project = projects.filter((/** @type {{ route: string; }} */ p) => p.route === $page.params.project)[0];
+  /* eslint-disable-next-line */
+  // @ts-nocheck
+  import { page } from "$app/stores";
+  import projects from "/src/data/projects.json";
+  const project = projects.filter(
+    (/** @type {{ route: string; }} */ p) => p.route === $page.params.project
+  )[0];
 </script>
 
 <div>
@@ -15,11 +18,7 @@
   </div>
   <div class="container main-container">
     <div class="col-md-12">
-      <img
-        src={project.image}
-        alt=""
-        class="img-responsive"
-      />
+      <img src={project.image} alt="" class="img-responsive" />
       <div class="h-30" />
     </div>
     <div class="col-md-12">
@@ -37,7 +36,6 @@
         {/each}
       </ul>
       <div class="h-10" />
-      <!-- TODO COMPONENT -->
       <h4>Share</h4>
       <ul class="social-ul">
         <li class="box-social">
@@ -59,7 +57,7 @@
     {#each project.gallery as image}
       <div class={`col-md-${image.size}`}>
         <img src={image.url} class="img-responsive" alt="" />
-      </div>  
+      </div>
     {/each}
   </div>
   <a href="#0" class="cd-top"><i class="ion-android-arrow-up" /></a>
