@@ -70,7 +70,10 @@
         </div>
         <div class="no-padding portfolio_container clearfix">
           {#each projects as project}
-            <div class={`col-md-4 col-sm-6 ${getFilters(project)}`}>
+            <div
+              data-sveltekit-preload-data="hover"
+              class={`col-md-4 col-sm-6 ${getFilters(project)}`}
+            >
               <a href={`projects/${project.route}`} class="portfolio_item">
                 <img loading="lazy" src={project.thumbnail} alt="" class="img-responsive" />
                 <div class="portfolio_item_hover">
