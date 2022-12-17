@@ -3,12 +3,12 @@ $(window).load(function () {
   $("#status").fadeOut();
   $("#preloader").delay(550).fadeOut("slow");
   $("body").delay(550).css({
-    overflow: "visible",
+    overflow: "visible"
   });
 
   const $container = $(".portfolio_container");
   $container.isotope({
-    filter: "*",
+    filter: "*"
   });
 
   $(".portfolio_filter a").click(function () {
@@ -19,8 +19,8 @@ $(window).load(function () {
       filter: selector,
       animationOptions: {
         duration: 500,
-        animationEngine: "jquery",
-      },
+        animationEngine: "jquery"
+      }
     });
     return false;
   });
@@ -43,7 +43,7 @@ $(window).load(function () {
     event.preventDefault();
     $("body,html").animate(
       {
-        scrollTop: 0,
+        scrollTop: 0
       },
       scrollTopDuration
     );

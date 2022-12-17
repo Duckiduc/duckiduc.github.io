@@ -1,8 +1,5 @@
-<svelte:head>
-  <script src="/scripts/custom.js"></script>
-</svelte:head>
-
 <script lang="ts">
+  /* eslint-disable-next-line */
   // @ts-nocheck
   import projects from "/src/data/projects.json";
 
@@ -13,7 +10,7 @@
     image?: string;
     gallery?: { url: string }[];
     description?: string;
-    tags: any;
+    tags: Array<{ name: string }>;
   }) => {
     let filters: string[] = [];
     project.tags.forEach((tag: { name: string }) => {
@@ -22,6 +19,10 @@
     return filters.join(" ");
   };
 </script>
+
+<svelte:head>
+  <script src="/scripts/custom.js"></script>
+</svelte:head>
 
 <div>
   <div class="top-bar">
@@ -36,9 +37,7 @@
             <ul class="portfolio_filter">
               <!-- svelte-ignore a11y-invalid-attribute -->
               <li>
-                <a href="javascript:void(0);" class="active" data-filter="*"
-                >All</a
-                >
+                <a href="javascript:void(0);" class="active" data-filter="*">All</a>
               </li>
               <!-- svelte-ignore a11y-invalid-attribute -->
               <li>
@@ -46,15 +45,11 @@
               </li>
               <!-- svelte-ignore a11y-invalid-attribute -->
               <li>
-                <a href="javascript:void(0);" data-filter=".Webdesign"
-                >Webdesign</a
-                >
+                <a href="javascript:void(0);" data-filter=".Webdesign">Webdesign</a>
               </li>
               <!-- svelte-ignore a11y-invalid-attribute -->
               <li>
-                <a href="javascript:void(0);" data-filter=".Mobile-app"
-                >Mobile App</a
-                >
+                <a href="javascript:void(0);" data-filter=".Mobile-app">Mobile App</a>
               </li>
               <!-- svelte-ignore a11y-invalid-attribute -->
               <li>
@@ -75,28 +70,26 @@
         </div>
         <div class="no-padding portfolio_container clearfix">
           {#each projects as project}
-          <div class={`col-md-4 col-sm-6 ${getFilters(project)}`}>
-            <a href={`projects/${project.route}`} class="portfolio_item">
-              <img
-              loading="lazy"
-              src={project.thumbnail}
-              alt=""
-              class="img-responsive"
-              />
-              <div class="portfolio_item_hover">
-                <div class="portfolio-border clearfix">
-                  <div class="item_info">
-                    <span>{project.title}</span>
-                    <em>
-                      {#each project.tags as tag}
-                      {`${tag.name} `}
-                      {/each}
-                    </em>
+            <div
+              data-sveltekit-preload-data="hover"
+              class={`col-md-4 col-sm-6 ${getFilters(project)}`}
+            >
+              <a href={`projects/${project.route}`} class="portfolio_item">
+                <img loading="lazy" src={project.thumbnail} alt="" class="img-responsive" />
+                <div class="portfolio_item_hover">
+                  <div class="portfolio-border clearfix">
+                    <div class="item_info">
+                      <span>{project.title}</span>
+                      <em>
+                        {#each project.tags as tag}
+                          {`${tag.name} `}
+                        {/each}
+                      </em>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          </div>
+              </a>
+            </div>
           {/each}
         </div>
       </div>

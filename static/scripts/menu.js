@@ -1,5 +1,4 @@
-// import { jQuery } from "./jquery-2.1.1.js"
-
+/* eslint-disable */
 jQuery(document).ready(function ($) {
   const MQL = 1170;
   if ($(window).width() > MQL) {
@@ -7,7 +6,7 @@ jQuery(document).ready(function ($) {
     $(window).on(
       "scroll",
       {
-        previousTop: 0,
+        previousTop: 0
       },
       function () {
         const currentTop = $(window).scrollTop();
@@ -19,10 +18,7 @@ jQuery(document).ready(function ($) {
           }
         } else {
           $(".box-header").removeClass("is-visible");
-          if (
-            currentTop > headerHeight &&
-            !$(".box-header").hasClass("is-fixed")
-          )
+          if (currentTop > headerHeight && !$(".box-header").hasClass("is-fixed"))
             $(".box-header").addClass("is-fixed");
         }
         this.previousTop = currentTop;
