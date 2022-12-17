@@ -1,6 +1,7 @@
 <script>
-// @ts-nocheck
-  import projects from "/src/data/projects.json"
+  /* eslint-disable-next-line */
+  // @ts-nocheck
+  import projects from "/src/data/projects.json";
   import Headline from "../components/HeadlineText.svelte";
   import Mouse from "../components/Mouse.svelte";
 </script>

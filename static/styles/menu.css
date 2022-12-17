@@ -95,8 +95,7 @@
   -webkit-transition: top 0.3s, background-color 0s, -webkit-transform 0.3s;
   transition: top 0.3s, background-color 0s, -webkit-transform 0.3s;
   transition: transform 0.3s, top 0.3s, background-color 0s;
-  transition: transform 0.3s, top 0.3s, background-color 0s,
-    -webkit-transform 0.3s;
+  transition: transform 0.3s, top 0.3s, background-color 0s, -webkit-transform 0.3s;
 }
 
 .box-primary-nav-trigger .box-menu-icon::before {

@@ -1,5 +1,5 @@
 <div>
-  <a href="https://www.buymeacoffee.com/ducki" target="_blank"
+  <a href="https://www.buymeacoffee.com/ducki" target="_blank" rel="noreferrer"
     ><img
       src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
       alt="Buy Me A Coffee"
@@ -11,6 +11,6 @@
 
 <style>
   img {
-    border-radius: .25em;
+    border-radius: 0.25em;
   }
 </style>
