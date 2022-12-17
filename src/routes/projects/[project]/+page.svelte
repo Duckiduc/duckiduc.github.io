@@ -36,7 +36,6 @@
         {/each}
       </ul>
       <div class="h-10" />
-      <!-- TODO COMPONENT -->
       <h4>Share</h4>
       <ul class="social-ul">
         <li class="box-social">
