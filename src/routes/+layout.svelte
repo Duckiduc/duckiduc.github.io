@@ -1,6 +1,7 @@
 <script>
   import Header from "../components/Header.svelte";
   import Menu from "../components/Menu.svelte";
+  import RoundButton from "../components/buyMeACoffee/RoundButton.svelte";
 </script>
 
 <svelte:head>
@@ -26,15 +27,5 @@
   </footer>
   <a href="#0" class="cd-top"><i class="ion-android-arrow-up" /></a>
 
-  <script
-    data-name="BMC-Widget"
-    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-    data-id="ducki"
-    data-description="Support me on Buy me a coffee!"
-    data-message="Thanks for passing by! You can support me with a coffee ☕"
-    data-color="#FF813F"
-    data-position="left"
-    data-x_margin="18"
-    data-y_margin="18"
-  ></script>
+  <RoundButton/>
 </div>
