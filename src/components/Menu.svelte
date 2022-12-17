@@ -15,9 +15,9 @@
       <a href="/">Home</a>
     </li>
     <li class="nav-trigger"><a data-sveltekit-reload href="projects">Portfolio</a></li>
-    <li class="nav-trigger"><a href="about">About me</a></li>
-    <li class="nav-trigger"><a href="contact">Contact me</a></li>
-    <li class="nav-trigger"><a href="tools">Tools / Gear / Softwares I use</a></li>
+    <li class="nav-trigger"><a href="/about">About me</a></li>
+    <li class="nav-trigger"><a href="/contact">Contact me</a></li>
+    <li class="nav-trigger"><a href="/tools">Tools / Gear / Softwares I use</a></li>
     <li>My services are currently unavailable.</li>
     <li class="box-label">Keep up with my work</li>
     <li class="box-social">
