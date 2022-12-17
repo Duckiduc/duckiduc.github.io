@@ -3,10 +3,49 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Primary Meta Tags -->
+		<title>Ducki - Personal Portfolio | Code & Design</title>
+		<meta name="title" content="Ducki - Personal Portfolio | Code & Design" />
+		<meta
+			name="description"
+			content="I am a freelance developer. This portfolio contains my work from code and (web)design to photography. "
+		/>
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://metatags.io/" />
+		<meta property="og:title" content="Ducki - Personal Portfolio | Code & Design" />
+		<meta
+			property="og:description"
+			content="I am a freelance developer. This portfolio contains my work from code and (web)design to photography. "
+		/>
+		<meta
+			property="og:image"
+			content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+		/>
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://metatags.io/" />
+		<meta property="twitter:title" content="Ducki - Personal Portfolio | Code & Design" />
+		<meta
+			property="twitter:description"
+			content="I am a freelance developer. This portfolio contains my work from code and (web)design to photography. "
+		/>
+		<meta
+			property="twitter:image"
+			content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+		/>
+		
+		<!-- <link rel="icon" href="img/fav.jpg" /> -->
+		<link href="/styles/bootstrap.min.css" rel="stylesheet" />
+		<link href="/ionicons/css/ionicons.min.css" rel="stylesheet" />
+		<link href="/styles/style.css" rel="stylesheet" />
+		<script src="/scripts/modernizr.js"></script>
 		%sveltekit.head%
 	</head>
-	<body>
+	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
