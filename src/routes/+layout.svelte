@@ -27,5 +27,5 @@
   </footer>
   <a href="#0" class="cd-top"><i class="ion-android-arrow-up" /></a>
 
-  <RoundButton/>
+  <RoundButton />
 </div>
