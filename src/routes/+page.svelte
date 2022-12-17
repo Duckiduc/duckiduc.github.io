@@ -1,4 +1,5 @@
 <script>
+// @ts-nocheck
   import projects from "/src/data/projects.json"
   import Headline from "../components/HeadlineText.svelte";
   import Mouse from "../components/Mouse.svelte";
@@ -64,6 +65,9 @@
   }
   .portfolio-div {
     width: 100vw;
-    /* display: flex; */
+  }
+  .portfolio_container {
+    display: flex;
+    flex-wrap: wrap;
   }
 </style>
