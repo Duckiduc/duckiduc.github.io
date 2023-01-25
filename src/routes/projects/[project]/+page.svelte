@@ -13,7 +13,7 @@
     <h1>{project.title}</h1>
     <p>
       <a href="/">Home</a> /
-      <a href="projects">Portfolio</a> / {project.title}
+      <a href="/projects">Portfolio</a> / {project.title}
     </p>
   </div>
   <div class="container main-container">
