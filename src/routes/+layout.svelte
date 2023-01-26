@@ -21,7 +21,7 @@
   <footer>
     <div class="container-fluid">
       <p class="copyright">© Nguyen Duc-Thomas {new Date().getFullYear()}</p>
-      Images freely provided by<a href="https://unsplash.com">Unsplash</a>. The logos used are the
+      Images freely provided by <a href="https://unsplash.com">Unsplash</a>. The logos used are the
       property of their respective owners.
     </div>
   </footer>
