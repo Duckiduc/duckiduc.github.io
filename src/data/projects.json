@@ -1,5 +1,78 @@
 [
   {
+    "title": "SMARTMOVE - Vivatech Hackathon",
+    "route": "smartmove-vivatech-hackathon",
+    "phrase": "Award winning solution at Vivatech's hackathon",
+    "thumbnail": "/img/smartmove-vivatech-hackathon/thumbnail.jpg",
+    "image": "/img/smartmove-vivatech-hackathon/cover.jpg",
+    "gallery": [
+      {
+        "url": "/img/smartmove-vivatech-hackathon/link1.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/smartmove-vivatech-hackathon/link5.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/smartmove-vivatech-hackathon/link3.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/smartmove-vivatech-hackathon/link4.jpg",
+        "size": "3"
+      }
+    ],
+    "description": "SMARTMOVE is an application and a Dashboard aiming to show all the alternatives to car ownership. The goal: to decongest cities, and reduce one's carbon footprint, by exploiting all the resources of one's city for mobility 🛴🌱.\n\n We won with Léa Buendé the FREE NOW Challenge during the #Hackathon with our project SmartMOVE. This was made possible thanks to our pitch and a Q&A session that I had the chance to lead 🚀. In one week we came up with the idea to create an ecosystem that allows users to learn about the impact and costs of a personal car and then redirect them to alternative modes of transportation based on their lifestyle and carbon emissions 🌍.",
+    "articles": [
+      {
+        "quote": "le projet jugé le plus mature [...]. Léa Buendé et Duc-Thomas Nguyen ont su démontrer les avantages incontournables de passer de la possession d’une voiture à l’usage de moyens de mobilité partagés",
+        "title": "Smart Move gagne le défi FREENOW",
+        "author": "Pierre Cossard",
+        "link": "https://www.mobilitesmagazine.com/post/smart-move-gagne-le-defi-freenow"
+      },
+      {
+        "quote": "Nous calculons également l'empreinte carbone de chacune des options afin que nos utilisateurs puissent choisir de manière responsable la façon la plus durable de se déplacer. Nous voulons changer la donne et rendre réellement la mobilité accessible à tous, déclare Léa Buendé",
+        "title": "Posséder une voiture en ville, pour ou contre ? Une application, gagnante du défi FREENOW, démontre les atouts de passer à une mobilité partagée",
+        "author": "AM-TODAY",
+        "link": "https://www.am-today.com/sites/default/files/articles/67967/vvvddvd.pdf"
+      },
+      {
+        "quote": "En utilisant les API publiques et les données personnelles fournies par nos utilisateurs, nous voulons montrer toutes les options de mobilité possibles pour s'adapter au style de vie de chaque utilisateur - autres que la possession d'une voiture, complète Duc-Thomas Nguyen.",
+        "title": "Posséder une voiture en ville, pour ou contre ? Une application, gagnante du défi FREENOW, démontre les atouts de passer à une mobilité partagée",
+        "author": "AM-TODAY",
+        "link": "https://www.am-today.com/sites/default/files/articles/67967/vvvddvd.pdf"
+      },
+      {
+        "quote": "Léa Buendé [...]. En collaboration avec Duc-Thomas Nguyen, le projet SmartMOVE consistait à offrir une solution de mobilité responsable, intelligente et accessible.",
+        "title": "L’Efrei clôture sa rentrée 2022 au Grand Rex",
+        "author": "ETUDESTECH",
+        "link": "https://etudestech.com/actu-ecole/efrei-rentree-2022-grand-rex-personnalite-webedia/"
+      }
+    ],
+    "links":[
+      {
+        "name": "SMARTMOVE",
+        "link": "https://smartmove.ducki.dev"
+      },
+      {
+        "name": "Github project",
+        "link": "https://github.com/Duckiduc/smartmove"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "Website"
+      },
+      {
+        "name": "Mobile App"
+      }
+    ]
+  },
+  {
     "title": "Rails Active Storage",
     "route": "rails-active-storage",
     "phrase": "Project to get you started with Active Storage and its services",
@@ -7,6 +80,8 @@
     "image": "/img/active-storage/project_active-storage.jpg",
     "gallery": [],
     "description": "Once I had a project related to Rails and its Active Storage that I had to link to AWS S3 Storage. So I did a small Rails project using Active Storage and the AWS S3 Storage service. It's a content manager like Google Drive (without the design). You can add, modify and delete content. The project is available on my GitHub with the necessary documentation.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Code"
@@ -48,6 +123,8 @@
       }
     ],
     "description": "Mackee was co-founded by a group of 5 students of which I was part as Lead Designer. It is a mobile application to learn trading and all its subtleties in a fun way. Mackee isn't available on app stores and some of the mockups are only on my portfolio.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
@@ -68,6 +145,8 @@
     "image": "/img/mackee-graphic-chart/cover.jpg",
     "gallery": [],
     "description": "Mackee was co-founded by a group of 5 students of which I was part as Lead Designer. It is a mobile application to learn trading and all its subtleties in a fun way. This graphic chart is one that I like the most.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
@@ -85,6 +164,8 @@
     "image": "/img/mackee-website.jpg",
     "gallery": [],
     "description": "Mackee was co-founded by a group of 5 students of which I was part as Lead Designer. It is a mobile application to learn trading and all its subtleties in a fun way. Mackee's website is available at www.mackee.app. Some of the mockups are only on my portfolio.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Web Design"
@@ -134,6 +215,8 @@
       }
     ],
     "description": "I had too many unstyled playlists on Spotify. I needed to do something to make it more appreciable. This is Vibes Serie.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
@@ -151,6 +234,8 @@
     "image": "/img/sons-of-efrei-posters/cover.jpg",
     "gallery": [],
     "description": "The Sons of EFREI Motorcycle Club organization needed posters to promote a motorcycle initiation at EFREI Paris.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
@@ -178,6 +263,8 @@
       }
     ],
     "description": "Being a huge fan of mountain bike and the owner of a Canyon bike, I had to do a concept app for the brand I love. This was the first time I used Sketch software.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
