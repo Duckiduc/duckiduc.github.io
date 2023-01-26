@@ -67,7 +67,9 @@
     {/each}
   </div>
   <div class="secondary-container articles-container">
-    <p class="articles-container-title">QUOTES</p>
+    {#if project.articles.length !== 0}
+      <p class="articles-container-title">QUOTES</p>
+    {/if}
     {#each project.articles as article}
        <div class="article">
         <p class="article-quote">“{article.quote}„</p>
