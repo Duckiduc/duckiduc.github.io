@@ -138,6 +138,30 @@
     ]
   },
   {
+    "title": "SlackBot Greeter",
+    "route": "slackbot-greeter",
+    "phrase": "Project to get you started with the Slack API using the Bolt-js framework. It greets users utilizing different methods from the API.",
+    "thumbnail": "/img/slackbot-greeter/thumbnail.jpg",
+    "image": "/img/slackbot-greeter/cover.jpg",
+    "gallery": [],
+    "description": "Basic \"TEMPLATE\" project to learn to create a Slack Bot from A to Z using the Slack API, the Bolt.js framework and Node.js. This includes documentation for setting up your Bot on Slack's website.",
+    "articles": [],
+    "links": [
+      {
+        "name": "Github project",
+        "link": "https://github.com/Duckiduc/slackbot-greeter"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "API"
+      }
+    ]
+  },
+  {
     "title": "MACKEE'S GRAPHIC CHART",
     "route": "mackees-graphic-chart",
     "phrase": "A complete graphic chart of our Mobile App Mackee.",
