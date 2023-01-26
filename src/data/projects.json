@@ -179,6 +179,27 @@
     ]
   },
   {
+    "title": "Playwright Benchmark",
+    "route": "playwright-benchmark",
+    "phrase": "Use playwright as a benchmark using browsers and speedometer",
+    "thumbnail": "/img/playwright-benchmark/thumbnail.jpg",
+    "image": "/img/playwright-benchmark/cover.jpg",
+    "gallery": [],
+    "description": "Using speedometer and playwright as a benchmark just for fun",
+    "articles": [],
+    "links": [
+      {
+        "name": "Github project",
+        "link": "https://github.com/Duckiduc/playwright-benchmark"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      }
+    ]
+  },
+  {
     "title": "PLAYLISTS COVERS - VIBES SERIE",
     "route": "vibes-serie",
     "phrase": "Vibing with my playlists.",
