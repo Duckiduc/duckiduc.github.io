@@ -224,6 +224,42 @@
     ]
   },
   {
+    "title": "MyServer. website",
+    "route": "myserver-website",
+    "phrase": "An awesome VPS provider to fit your needs!",
+    "thumbnail": "/img/my-vps/thumbnail.jpg",
+    "image": "/img/my-vps/cover.jpg",
+    "gallery": [
+      {
+        "url": "/img/my-vps/design.jpg",
+        "size": "12"
+      }
+    ],
+    "description": "This project is a Vue Application mimicking a VPS provider coded by Léa Buendé and Duc-Thomas Nguyen. The frameworks and libraries used for this project are the following. We used Vue 3 with Typescript, so make sure all your versions are up to date! Vue.js | Vue-router | Sass | Typescript",
+    "articles": [],
+    "links": [
+      {
+        "name": "MyServer website",
+        "link": "http://my-vps-github-io.vercel.app/"
+      },
+      {
+        "name": "Github project",
+        "link": "https://github.com/My-VPS/My-VPS.github.io"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "Website"
+      },
+      {
+        "name": "Web Design"
+      }
+    ]
+  },
+  {
     "title": "PLAYLISTS COVERS - VIBES SERIE",
     "route": "vibes-serie",
     "phrase": "Vibing with my playlists.",
