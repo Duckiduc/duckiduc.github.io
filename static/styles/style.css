@@ -484,6 +484,30 @@ textarea:focus {
   color: #ff813f;
 }
 
+.article {
+  margin-top: 20px;
+}
+
+.gallery-img-container {
+  aspect-ratio: 1;
+}
+
+.gallery-img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.articles-container {
+  margin-top: 50px;
+  padding: 0 20%;
+}
+
+.articles-container-title {
+  font-weight: 600;
+  text-align: center;
+  font-size: large;
+}
+
 /* Responsive media queries ==================================================*/
 
 @media (max-width: 991px) {
