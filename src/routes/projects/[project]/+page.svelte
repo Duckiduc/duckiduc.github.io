@@ -36,6 +36,12 @@
         {/each}
       </ul>
       <div class="h-10" />
+      <ul class="cat-ul">
+        {#each project.links as link}
+          <li>• <a href={link.link} target="_blank" rel="noreferrer">{link.name}</a></li>
+        {/each}
+      </ul>
+      <div class="h-10" />
       <h4>Share</h4>
       <ul class="social-ul">
         <li class="box-social">
@@ -55,9 +61,22 @@
   </div>
   <div class="container secondary-container clearfix no-padding portfolio_container">
     {#each project.gallery as image}
-      <div class={`col-md-${image.size}`}>
-        <img src={image.url} class="img-responsive" alt="" />
+      <div class={`col-md-${image.size} gallery-img-container`}>
+        <img src={image.url} class="img-responsive gallery-img" alt="" />
       </div>
+    {/each}
+  </div>
+  <div class="secondary-container articles-container">
+    {#if project.articles.length !== 0}
+      <p class="articles-container-title">QUOTES</p>
+    {/if}
+    {#each project.articles as article}
+       <div class="article">
+        <p class="article-quote">“{article.quote}„</p>
+        <p class="article-author">{article.author}</p>
+        <a href={article.link} target="_blank" rel="noreferrer">Source: {article.title}</a>
+       </div>
+       <hr>
     {/each}
   </div>
   <a href="#0" class="cd-top"><i class="ion-android-arrow-up" /></a>

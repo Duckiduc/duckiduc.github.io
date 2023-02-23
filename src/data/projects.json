@@ -1,5 +1,134 @@
 [
   {
+    "title": "SMARTMOVE - Vivatech Hackathon",
+    "route": "smartmove-vivatech-hackathon",
+    "phrase": "Award winning solution at Vivatech's hackathon",
+    "thumbnail": "/img/smartmove-vivatech-hackathon/thumbnail.jpg",
+    "image": "/img/smartmove-vivatech-hackathon/cover.jpg",
+    "gallery": [
+      {
+        "url": "/img/smartmove-vivatech-hackathon/link1.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/smartmove-vivatech-hackathon/link5.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/smartmove-vivatech-hackathon/link3.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/smartmove-vivatech-hackathon/link4.jpg",
+        "size": "3"
+      }
+    ],
+    "description": "SMARTMOVE is an application and a Dashboard aiming to show all the alternatives to car ownership. The goal: to decongest cities, and reduce one's carbon footprint, by exploiting all the resources of one's city for mobility 🛴🌱.\n\n We won with Léa Buendé the FREE NOW Challenge during the #Hackathon with our project SmartMOVE. This was made possible thanks to our pitch and a Q&A session that I had the chance to lead 🚀. In one week we came up with the idea to create an ecosystem that allows users to learn about the impact and costs of a personal car and then redirect them to alternative modes of transportation based on their lifestyle and carbon emissions 🌍.",
+    "articles": [
+      {
+        "quote": "le projet jugé le plus mature [...]. Léa Buendé et Duc-Thomas Nguyen ont su démontrer les avantages incontournables de passer de la possession d’une voiture à l’usage de moyens de mobilité partagés",
+        "title": "Smart Move gagne le défi FREENOW",
+        "author": "Pierre Cossard",
+        "link": "https://www.mobilitesmagazine.com/post/smart-move-gagne-le-defi-freenow"
+      },
+      {
+        "quote": "Nous calculons également l'empreinte carbone de chacune des options afin que nos utilisateurs puissent choisir de manière responsable la façon la plus durable de se déplacer. Nous voulons changer la donne et rendre réellement la mobilité accessible à tous, déclare Léa Buendé",
+        "title": "Posséder une voiture en ville, pour ou contre ? Une application, gagnante du défi FREENOW, démontre les atouts de passer à une mobilité partagée",
+        "author": "AM-TODAY",
+        "link": "https://www.am-today.com/sites/default/files/articles/67967/vvvddvd.pdf"
+      },
+      {
+        "quote": "En utilisant les API publiques et les données personnelles fournies par nos utilisateurs, nous voulons montrer toutes les options de mobilité possibles pour s'adapter au style de vie de chaque utilisateur - autres que la possession d'une voiture, complète Duc-Thomas Nguyen.",
+        "title": "Posséder une voiture en ville, pour ou contre ? Une application, gagnante du défi FREENOW, démontre les atouts de passer à une mobilité partagée",
+        "author": "AM-TODAY",
+        "link": "https://www.am-today.com/sites/default/files/articles/67967/vvvddvd.pdf"
+      },
+      {
+        "quote": "Léa Buendé [...]. En collaboration avec Duc-Thomas Nguyen, le projet SmartMOVE consistait à offrir une solution de mobilité responsable, intelligente et accessible.",
+        "title": "L’Efrei clôture sa rentrée 2022 au Grand Rex",
+        "author": "ETUDESTECH",
+        "link": "https://etudestech.com/actu-ecole/efrei-rentree-2022-grand-rex-personnalite-webedia/"
+      }
+    ],
+    "links":[
+      {
+        "name": "SMARTMOVE",
+        "link": "https://smartmove.ducki.dev"
+      },
+      {
+        "name": "Github project",
+        "link": "https://github.com/Duckiduc/smartmove"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "Website"
+      },
+      {
+        "name": "Mobile App"
+      }
+    ]
+  },
+  {
+    "title": "Greenmile - Google Cloud Hackathon",
+    "route": "greenmile-google-cloud-hackathon",
+    "phrase": "3 Days to develop a solution using cloud to fight against global warming",
+    "thumbnail": "/img/greenmile/thumbnail.jpg",
+    "image": "/img/greenmile/cover.jpg",
+    "gallery": [
+      {
+        "url": "/img/greenmile/frame-1.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/greenmile/frame-2.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/greenmile/frame-3.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/greenmile/frame-4.jpg",
+        "size": "3"
+      }
+    ],
+    "description": "Working as a group of six, we had a deadline of three days to devise a creative plan utilizing Cloud technology to combat the issue of climate change. During our project, we received guidance from consultants at both Thales and Google, while stationed at Google's Parisian headquarters for two days. Ultimately, we produced Greenmile, a mobile application designed to monitor an individual's daily carbon footprint using preexisting data collected by Google, in addition to manually input information.",
+    "articles": [],
+    "links":[
+      {
+        "name": "Greenmile GitHub Page",
+        "link": "https://github.com/hackathon-climat-05"
+      },
+      {
+        "name": "Renault Linkedin post",
+        "link": "https://www.linkedin.com/posts/renaultgroup_hackathon-cloudpourleclimat-activity-6948664313549103104-ksGX"
+      },
+      {
+        "name": "Synerg'hetic Linkedin post",
+        "link": "https://www.linkedin.com/posts/synerg%27hetic_googlecloud-google-cloud-activity-6950839984471867392-u-qW"
+      },
+      {
+        "name": "Léa Buendé Linkedin post",
+        "link": "https://www.linkedin.com/posts/leabuende_hackathon-google-ugcPost-6947607590432354304-Tk73"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "Website"
+      },
+      {
+        "name": "Mobile App"
+      }
+    ]
+  },
+  {
     "title": "Rails Active Storage",
     "route": "rails-active-storage",
     "phrase": "Project to get you started with Active Storage and its services",
@@ -7,6 +136,8 @@
     "image": "/img/active-storage/project_active-storage.jpg",
     "gallery": [],
     "description": "Once I had a project related to Rails and its Active Storage that I had to link to AWS S3 Storage. So I did a small Rails project using Active Storage and the AWS S3 Storage service. It's a content manager like Google Drive (without the design). You can add, modify and delete content. The project is available on my GitHub with the necessary documentation.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Code"
@@ -48,6 +179,8 @@
       }
     ],
     "description": "Mackee was co-founded by a group of 5 students of which I was part as Lead Designer. It is a mobile application to learn trading and all its subtleties in a fun way. Mackee isn't available on app stores and some of the mockups are only on my portfolio.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
@@ -61,6 +194,74 @@
     ]
   },
   {
+    "title": "SlackBot Greeter",
+    "route": "slackbot-greeter",
+    "phrase": "Project to get you started with the Slack API using the Bolt-js framework. It greets users utilizing different methods from the API.",
+    "thumbnail": "/img/slackbot-greeter/thumbnail.jpg",
+    "image": "/img/slackbot-greeter/cover.jpg",
+    "gallery": [],
+    "description": "Basic \"TEMPLATE\" project to learn to create a Slack Bot from A to Z using the Slack API, the Bolt.js framework and Node.js. This includes documentation for setting up your Bot on Slack's website.",
+    "articles": [],
+    "links": [
+      {
+        "name": "Github project",
+        "link": "https://github.com/Duckiduc/slackbot-greeter"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "API"
+      }
+    ]
+  },
+  {
+    "title": "MACKEE HEALTH",
+    "route": "mackee-health",
+    "phrase": "Project to get you started with the Slack API using the Bolt-js framework. It greets users utilizing different methods from the API.",
+    "thumbnail": "/img/mackee-health/thumbnail.jpg",
+    "image": "/img/mackee-health/cover.jpg",
+    "gallery": [
+      {
+        "url": "/img/mackee-health/screen-1.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/mackee-health/screen-2.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/mackee-health/screen-3.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/mackee-health/screen-4.jpg",
+        "size": "3"
+      }
+    ],
+    "description": "With the team at Mackee, we created a medical prescription generation and management app. Our market research revealed a lack of a unified solution for online prescription management among medical services, despite increased usage due to COVID-19. Our goal was to develop a secure tool that prevents prescription fraud while handling sensitive data. We came up with the Mackee Health App (iOS, Android, MacOS and Windows).",
+    "articles": [],
+    "links": [
+      {
+        "name": "Mackee Health Github page",
+        "link": "https://github.com/Mackee-Health"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "API"
+      },
+      {
+        "name": "Mobile App"
+      }
+    ]
+  },
+  {
     "title": "MACKEE'S GRAPHIC CHART",
     "route": "mackees-graphic-chart",
     "phrase": "A complete graphic chart of our Mobile App Mackee.",
@@ -68,6 +269,8 @@
     "image": "/img/mackee-graphic-chart/cover.jpg",
     "gallery": [],
     "description": "Mackee was co-founded by a group of 5 students of which I was part as Lead Designer. It is a mobile application to learn trading and all its subtleties in a fun way. This graphic chart is one that I like the most.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
@@ -78,13 +281,24 @@
     ]
   },
   {
-    "title": "MACKEE WEBSITE DESIGN",
-    "route": "mackee-website-design",
-    "phrase": "Set of the website's mockups",
+    "title": "MACKEE WEBSITE",
+    "route": "mackee-website",
+    "phrase": "Set of the website's mockups & the fully developed website",
     "thumbnail": "/img/mackee-website.jpg",
     "image": "/img/mackee-website.jpg",
     "gallery": [],
     "description": "Mackee was co-founded by a group of 5 students of which I was part as Lead Designer. It is a mobile application to learn trading and all its subtleties in a fun way. Mackee's website is available at www.mackee.app. Some of the mockups are only on my portfolio.",
+    "articles": [],
+    "links": [
+      {
+        "name": "Mackee's wesbite",
+        "link": "https://makee-site.now.sh"
+      },
+      {
+        "name": "Github project",
+        "link": "https://github.com/Mackee-App/website"
+      }
+    ],
     "tags": [
       {
         "name": "Web Design"
@@ -94,6 +308,66 @@
       },
       {
         "name": "Mockups"
+      },
+      {
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "title": "Playwright Benchmark",
+    "route": "playwright-benchmark",
+    "phrase": "Use playwright as a benchmark using browsers and speedometer",
+    "thumbnail": "/img/playwright-benchmark/thumbnail.jpg",
+    "image": "/img/playwright-benchmark/cover.jpg",
+    "gallery": [],
+    "description": "Using speedometer and playwright as a benchmark just for fun",
+    "articles": [],
+    "links": [
+      {
+        "name": "Github project",
+        "link": "https://github.com/Duckiduc/playwright-benchmark"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "title": "MyServer. website",
+    "route": "myserver-website",
+    "phrase": "An awesome VPS provider to fit your needs!",
+    "thumbnail": "/img/my-vps/thumbnail.jpg",
+    "image": "/img/my-vps/cover.jpg",
+    "gallery": [
+      {
+        "url": "/img/my-vps/design.jpg",
+        "size": "12"
+      }
+    ],
+    "description": "This project is a Vue Application mimicking a VPS provider coded by Léa Buendé and Duc-Thomas Nguyen. The frameworks and libraries used for this project are the following. We used Vue 3 with Typescript, so make sure all your versions are up to date! Vue.js | Vue-router | Sass | Typescript",
+    "articles": [],
+    "links": [
+      {
+        "name": "MyServer website",
+        "link": "http://my-vps-github-io.vercel.app/"
+      },
+      {
+        "name": "Github project",
+        "link": "https://github.com/My-VPS/My-VPS.github.io"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "Website"
+      },
+      {
+        "name": "Web Design"
       }
     ]
   },
@@ -134,6 +408,8 @@
       }
     ],
     "description": "I had too many unstyled playlists on Spotify. I needed to do something to make it more appreciable. This is Vibes Serie.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
@@ -148,9 +424,11 @@
     "route": "sons-of-efrei-posters",
     "phrase": "EFREI Vroum Vroum needed posters",
     "thumbnail": "/img/sons-of-efrei-event-posters/sons-event-poster.jpg",
-    "image": "/img/sons-of-efrei-posters/cover.jpg",
+    "image": "/img/sons-of-efrei-event-posters/cover.jpg",
     "gallery": [],
     "description": "The Sons of EFREI Motorcycle Club organization needed posters to promote a motorcycle initiation at EFREI Paris.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
@@ -178,6 +456,8 @@
       }
     ],
     "description": "Being a huge fan of mountain bike and the owner of a Canyon bike, I had to do a concept app for the brand I love. This was the first time I used Sketch software.",
+    "articles": [],
+    "links": [],
     "tags": [
       {
         "name": "Design"
