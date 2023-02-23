@@ -18,9 +18,9 @@
         <p><i class="ion-android-call" /> no-phone</p>
         <p>
           <i class="ion-ios-email" /><a
-            href="mailto:duckiduc.contact@gmail.com?subject=%5BContact%20Portfolio%5D"
+            href="mailto:contact@ducki.dev?subject=%5BContact%20Portfolio%5D"
           >
-            duckiduc.contact@gmail.com</a
+            contact@ducki.dev</a
           >
         </p>
       </div>
