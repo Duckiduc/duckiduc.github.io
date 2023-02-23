@@ -50,7 +50,7 @@
         "link": "https://etudestech.com/actu-ecole/efrei-rentree-2022-grand-rex-personnalite-webedia/"
       }
     ],
-    "links":[
+    "links": [
       {
         "name": "SMARTMOVE",
         "link": "https://smartmove.ducki.dev"
@@ -98,7 +98,7 @@
     ],
     "description": "Working as a group of six, we had a deadline of three days to devise a creative plan utilizing Cloud technology to combat the issue of climate change. During our project, we received guidance from consultants at both Thales and Google, while stationed at Google's Parisian headquarters for two days. Ultimately, we produced Greenmile, a mobile application designed to monitor an individual's daily carbon footprint using preexisting data collected by Google, in addition to manually input information.",
     "articles": [],
-    "links":[
+    "links": [
       {
         "name": "Greenmile GitHub Page",
         "link": "https://github.com/hackathon-climat-05"

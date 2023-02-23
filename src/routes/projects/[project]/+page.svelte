@@ -71,12 +71,12 @@
       <p class="articles-container-title">QUOTES</p>
     {/if}
     {#each project.articles as article}
-       <div class="article">
+      <div class="article">
         <p class="article-quote">“{article.quote}„</p>
         <p class="article-author">{article.author}</p>
         <a href={article.link} target="_blank" rel="noreferrer">Source: {article.title}</a>
-       </div>
-       <hr>
+      </div>
+      <hr />
     {/each}
   </div>
   <a href="#0" class="cd-top"><i class="ion-android-arrow-up" /></a>
