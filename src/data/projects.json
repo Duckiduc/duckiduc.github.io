@@ -162,6 +162,50 @@
     ]
   },
   {
+    "title": "MACKEE HEALTH",
+    "route": "mackee-health",
+    "phrase": "Project to get you started with the Slack API using the Bolt-js framework. It greets users utilizing different methods from the API.",
+    "thumbnail": "/img/mackee-health/thumbnail.jpg",
+    "image": "/img/mackee-health/cover.jpg",
+    "gallery": [
+      {
+        "url": "/img/mackee-health/screen-1.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/mackee-health/screen-2.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/mackee-health/screen-3.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/mackee-health/screen-4.jpg",
+        "size": "3"
+      }
+    ],
+    "description": "With the team at Mackee, we created a medical prescription generation and management app. Our market research revealed a lack of a unified solution for online prescription management among medical services, despite increased usage due to COVID-19. Our goal was to develop a secure tool that prevents prescription fraud while handling sensitive data. We came up with the Mackee Health App (iOS, Android, MacOS and Windows).",
+    "articles": [],
+    "links": [
+      {
+        "name": "Mackee Health Github page",
+        "link": "https://github.com/Mackee-Health"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "API"
+      },
+      {
+        "name": "Mobile App"
+      }
+    ]
+  },
+  {
     "title": "MACKEE'S GRAPHIC CHART",
     "route": "mackees-graphic-chart",
     "phrase": "A complete graphic chart of our Mobile App Mackee.",
@@ -324,7 +368,7 @@
     "route": "sons-of-efrei-posters",
     "phrase": "EFREI Vroum Vroum needed posters",
     "thumbnail": "/img/sons-of-efrei-event-posters/sons-event-poster.jpg",
-    "image": "/img/sons-of-efrei-posters/cover.jpg",
+    "image": "/img/sons-of-efrei-event-posters/cover.jpg",
     "gallery": [],
     "description": "The Sons of EFREI Motorcycle Club organization needed posters to promote a motorcycle initiation at EFREI Paris.",
     "articles": [],
