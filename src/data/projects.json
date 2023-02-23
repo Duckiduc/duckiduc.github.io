@@ -73,6 +73,62 @@
     ]
   },
   {
+    "title": "Greenmile - Google Cloud Hackathon",
+    "route": "greenmile-google-cloud-hackathon",
+    "phrase": "3 Days to develop a solution using cloud to fight against global warming",
+    "thumbnail": "/img/greenmile/thumbnail.jpg",
+    "image": "/img/greenmile/cover.jpg",
+    "gallery": [
+      {
+        "url": "/img/greenmile/frame-1.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/greenmile/frame-2.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/greenmile/frame-3.jpg",
+        "size": "3"
+      },
+      {
+        "url": "/img/greenmile/frame-4.jpg",
+        "size": "3"
+      }
+    ],
+    "description": "Working as a group of six, we had a deadline of three days to devise a creative plan utilizing Cloud technology to combat the issue of climate change. During our project, we received guidance from consultants at both Thales and Google, while stationed at Google's Parisian headquarters for two days. Ultimately, we produced Greenmile, a mobile application designed to monitor an individual's daily carbon footprint using preexisting data collected by Google, in addition to manually input information.",
+    "articles": [],
+    "links":[
+      {
+        "name": "Greenmile GitHub Page",
+        "link": "https://github.com/hackathon-climat-05"
+      },
+      {
+        "name": "Renault Linkedin post",
+        "link": "https://www.linkedin.com/posts/renaultgroup_hackathon-cloudpourleclimat-activity-6948664313549103104-ksGX"
+      },
+      {
+        "name": "Synerg'hetic Linkedin post",
+        "link": "https://www.linkedin.com/posts/synerg%27hetic_googlecloud-google-cloud-activity-6950839984471867392-u-qW"
+      },
+      {
+        "name": "Léa Buendé Linkedin post",
+        "link": "https://www.linkedin.com/posts/leabuende_hackathon-google-ugcPost-6947607590432354304-Tk73"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Code"
+      },
+      {
+        "name": "Website"
+      },
+      {
+        "name": "Mobile App"
+      }
+    ]
+  },
+  {
     "title": "Rails Active Storage",
     "route": "rails-active-storage",
     "phrase": "Project to get you started with Active Storage and its services",
