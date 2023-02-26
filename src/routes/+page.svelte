@@ -25,7 +25,7 @@
       <div class="no-padding portfolio_container">
         {#each projects as project}
           <div data-sveltekit-preload-data="hover" class="col-md-3 col-sm-6">
-            <a href={`projects/${project.route}`} class="portfolio_item">
+            <a href={`projects/${project.route}`} class="portfolio_item" id={project.route}>
               <img loading="lazy" src={project.thumbnail} alt="" class="img-responsive" />
               <div class="portfolio_item_hover">
                 <div class="portfolio-border clearfix">
