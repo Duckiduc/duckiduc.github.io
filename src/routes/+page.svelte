@@ -1,9 +1,9 @@
-<script>
-  /* eslint-disable-next-line */
-  // @ts-nocheck
-  import projects from "/src/data/projects.json";
+<script lang="ts">
   import Headline from "../components/HeadlineText.svelte";
   import Mouse from "../components/Mouse.svelte";
+  import { getProjects } from "../types/projectType";
+
+  const projects = getProjects();
 </script>
 
 <svelte:head>
