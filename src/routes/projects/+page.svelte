@@ -1,17 +1,9 @@
 <script lang="ts">
-  /* eslint-disable-next-line */
-  // @ts-nocheck
-  import projects from "/src/data/projects.json";
+  import { getProjects, type Project } from "../../types/projectType";
 
-  const getFilters = (project: {
-    title?: string;
-    phrase?: string;
-    thumbnail?: string;
-    image?: string;
-    gallery?: { url: string }[];
-    description?: string;
-    tags: Array<{ name: string }>;
-  }) => {
+  const projects = getProjects();
+
+  const getFilters = (project: Project) => {
     let filters: string[] = [];
     project.tags.forEach((tag: { name: string }) => {
       filters.push(tag.name);
