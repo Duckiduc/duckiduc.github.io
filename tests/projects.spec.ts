@@ -49,7 +49,6 @@ test.describe('Navigation', () => {
 test.describe('Portfolio page projects', () => {
   test('should have "Portfolio" as title', async ({ page }) => {
     const title = page.locator('h1:text-is("Portfolio")');
-    console.log(title)
 
     await expect(title).toHaveCount(1);
   });
