@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 import projects from "../src/data/projects.json" assert { type: "json" };
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('http://localhost:4173/');
+  await page.goto('http://localhost:4173/projects');
 });
 
 // Navigation tests
@@ -10,7 +10,7 @@ test.beforeEach(async ({ page }) => {
 test.describe('Navigation', () => {
   test('should redirect to home page', async ({ page }) => {
     await page.getByRole('link', { name: 'Menu' }).click();
-    await page.getByRole('link', { name: 'Home' }).click();
+    await page.getByRole('listitem').filter({ hasText: 'Home' }).getByRole('link', { name: 'Home' }).click();
   
     await expect(page).toHaveURL('http://localhost:4173');
   });
@@ -44,31 +44,9 @@ test.describe('Navigation', () => {
   });
 });
 
-// Home page tests
+// Projects page projects tests
 
-test.describe('Home page', () => {
-  test('should contain code.', async ({ page }) => {
-    const title = page.getByText('code.');
-    
-    await expect(title).toHaveText('code.');
-  });
-
-  test('should contain webdesign.', async ({ page }) => {
-    const title = page.getByText('webdesign.');
-
-    await expect(title).toHaveText('webdesign.');
-  });
-
-  test('should contain 3D.', async ({ page }) => {
-    const title = page.getByText('3D.');
-
-    await expect(title).toHaveText('3D.');
-  });
-});
-
-// Home page projects tests
-
-test.describe('Home page projects', () => {
+test.describe('Portfolio page projects', () => {
   projects.forEach(project => {
     test(`should contain ${project.title} project`, async ({ page }) => {
       const projectCard = page.getByRole('link', { name: `${project.title}` });
