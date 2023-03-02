@@ -47,12 +47,14 @@ test.describe('Navigation', () => {
 // Projects page projects tests
 
 test.describe('Portfolio page projects', () => {
-  projects.forEach(project => {
+  for (const project of projects) {
     test(`should contain ${project.title} titles`, async ({ page }) => {
       await page.goto(`http://localhost:4173/projects/${project.route}`);
-      const title = await page.locator('h1').textContent();
-      const secondTitle = await page.locator('h3').textContent();
-      const subTitle = await page.locator('h5').textContent();
+      const [title, secondTitle, subTitle] = await Promise.all([
+        page.locator('h1').textContent(),
+        page.locator('h3').textContent(),
+        page.locator('h5').textContent(),
+      ]);
 
       await expect(title).toBe(project.title);
       await expect(secondTitle).toBe(project.title);
@@ -88,9 +90,9 @@ test.describe('Portfolio page projects', () => {
       await page.goto(`http://localhost:4173/projects/${project.route}`);
       for (const article of project.articles) {
         const articleElement = page.getByText(article.quote);
-  
+
         await expect(articleElement).toHaveCount(1);
       }
     });
-  });
+  }
 });
