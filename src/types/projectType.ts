@@ -26,6 +26,4 @@ export type Project = {
   }[];
 }
 
-export const getProjects = (): Project[] => {
-  return projects;
-}
+export const getProjects = (): Project[] => projects;
