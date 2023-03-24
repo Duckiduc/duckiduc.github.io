@@ -66,7 +66,7 @@
               data-sveltekit-preload-data="hover"
               class={`col-md-4 col-sm-6 ${getFilters(project)}`}
             >
-              <a href={`projects/${project.route}`} class="portfolio_item">
+              <a href={`projects/${project.route}`} class="portfolio_item" id={`#${project.route}`}>
                 <img loading="lazy" src={project.thumbnail} alt="" class="img-responsive" />
                 <div class="portfolio_item_hover">
                   <div class="portfolio-border clearfix">
