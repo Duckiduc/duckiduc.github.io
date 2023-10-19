@@ -6,7 +6,7 @@ const config: PlaywrightTestConfig = {
     port: 4173
   },
   testDir: "tests",
-  fullyParallel: true,
+  fullyParallel: true
 };
 
 export default config;

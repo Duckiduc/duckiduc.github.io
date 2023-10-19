@@ -7,7 +7,7 @@ const config = {
   // for more information about preprocessors
   preprocess: vitePreprocess({
     default: {
-      script: "typescript",
+      script: "typescript"
     }
   }),
 
