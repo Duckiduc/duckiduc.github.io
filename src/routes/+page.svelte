@@ -64,9 +64,6 @@
     color: #999;
     line-height: 1.7;
   }
-  .portfolio-div {
-    width: 100vw;
-  }
   .portfolio_container {
     display: flex;
     flex-wrap: wrap;
