@@ -24,6 +24,6 @@ export type Project = {
   tags: {
     name: string;
   }[];
-}
+};
 
 export const getProjects = (): Project[] => projects;
