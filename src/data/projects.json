@@ -26,26 +26,26 @@
     "description": "SMARTMOVE is an application and a Dashboard aiming to show all the alternatives to car ownership. The goal: to decongest cities, and reduce one's carbon footprint, by exploiting all the resources of one's city for mobility 🛴🌱.\n\n We won with Léa Buendé the FREE NOW Challenge during the #Hackathon with our project SmartMOVE. This was made possible thanks to our pitch and a Q&A session that I had the chance to lead 🚀. In one week we came up with the idea to create an ecosystem that allows users to learn about the impact and costs of a personal car and then redirect them to alternative modes of transportation based on their lifestyle and carbon emissions 🌍.",
     "articles": [
       {
-        "quote": "le projet jugé le plus mature [...]. Léa Buendé et Duc-Thomas Nguyen ont su démontrer les avantages incontournables de passer de la possession d’une voiture à l’usage de moyens de mobilité partagés",
-        "title": "Smart Move gagne le défi FREENOW",
+        "quote": "the most mature project [...]. Léa Buendé and Duc-Thomas Nguyen demonstrated the unavoidable advantages of switching from car ownership to shared mobility.",
+        "title": "Smart Move wins the FREENOW challenge",
         "author": "Pierre Cossard",
         "link": "https://www.mobilitesmagazine.com/post/smart-move-gagne-le-defi-freenow"
       },
       {
-        "quote": "Nous calculons également l'empreinte carbone de chacune des options afin que nos utilisateurs puissent choisir de manière responsable la façon la plus durable de se déplacer. Nous voulons changer la donne et rendre réellement la mobilité accessible à tous, déclare Léa Buendé",
-        "title": "Posséder une voiture en ville, pour ou contre ? Une application, gagnante du défi FREENOW, démontre les atouts de passer à une mobilité partagée",
+        "quote": "We also calculate the carbon footprint of each option, so that our users can responsibly choose the most sustainable way of getting around. We want to change the situation and make mobility truly accessible to all, declares Léa Buendé.",
+        "title": "Car ownership in the city: for or against? An application, winner of the FREENOW challenge, demonstrates the advantages of switching to shared mobility",
         "author": "AM-TODAY",
         "link": "https://www.am-today.com/sites/default/files/articles/67967/vvvddvd.pdf"
       },
       {
-        "quote": "En utilisant les API publiques et les données personnelles fournies par nos utilisateurs, nous voulons montrer toutes les options de mobilité possibles pour s'adapter au style de vie de chaque utilisateur - autres que la possession d'une voiture, complète Duc-Thomas Nguyen.",
-        "title": "Posséder une voiture en ville, pour ou contre ? Une application, gagnante du défi FREENOW, démontre les atouts de passer à une mobilité partagée",
+        "quote": "Using public APIs and personal data provided by our users, we want to show all the possible mobility options to suit each user's lifestyle - other than owning a car, adds Duc-Thomas Nguyen.",
+        "title": "Car ownership in the city: for or against? An application, winner of the FREENOW challenge, demonstrates the advantages of switching to shared mobility",
         "author": "AM-TODAY",
         "link": "https://www.am-today.com/sites/default/files/articles/67967/vvvddvd.pdf"
       },
       {
-        "quote": "Léa Buendé [...]. En collaboration avec Duc-Thomas Nguyen, le projet SmartMOVE consistait à offrir une solution de mobilité responsable, intelligente et accessible.",
-        "title": "L’Efrei clôture sa rentrée 2022 au Grand Rex",
+        "quote": "Léa Buendé [...]. In collaboration with Duc-Thomas Nguyen, the SmartMOVE project aimed to offer a responsible, intelligent and accessible mobility solution.",
+        "title": "Efrei closes 2022 school year at Grand Rex",
         "author": "ETUDESTECH",
         "link": "https://etudestech.com/actu-ecole/efrei-rentree-2022-grand-rex-personnalite-webedia/"
       }
