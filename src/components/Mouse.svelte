@@ -1,5 +1,5 @@
 <div class="mouse">
-  <div class="scroll" />
+  <div class="scroll"></div>
 </div>
 
 <style>

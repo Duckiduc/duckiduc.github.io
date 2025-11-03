@@ -7,7 +7,7 @@
     <div class="col-md-6">
       <h3 class="text-uppercase">contact me</h3>
       <h5>Let's get in touch!</h5>
-      <div class="h-30" />
+      <div class="h-30"></div>
       <p>
         Feel free to contact me whenever you want. We could share our experiences (I'd love to know
         what you do!). You can ask me more info about my projects. You can ask me to contribute to
@@ -15,9 +15,9 @@
         answer ASAP.<br /><br />See ya :)
       </p>
       <div class="contact-info">
-        <p><i class="ion-android-call" /> no-phone</p>
+        <p><i class="ion-android-call"></i> no-phone</p>
         <p>
-          <i class="ion-ios-email" /><a
+          <i class="ion-ios-email"></i><a
             href="mailto:contact@ducki.dev?subject=%5BContact%20Portfolio%5D"
           >
             contact@ducki.dev</a

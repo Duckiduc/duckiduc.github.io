@@ -8,6 +8,6 @@
     <a href="/"><img src="/img/logo.png" width="70" alt="Logo" /></a>
   </div>
   <a class="box-primary-nav-trigger" href="#0">
-    <span class="box-menu-text">Menu</span><span class="box-menu-icon" />
+    <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
   </a>
 </header>

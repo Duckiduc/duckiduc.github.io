@@ -21,10 +21,10 @@
     <li>My services are currently unavailable.</li>
     <li class="box-label">Keep up with my work</li>
     <li class="box-social">
-      <a href="https://github.com/Duckiduc"><i class="ion-social-github" /></a>
+      <a href="https://github.com/Duckiduc"><i class="ion-social-github"></i></a>
     </li>
     <li class="box-social">
-      <a href="https://linkedin.com/in/duc-thomas-nguyen"><i class="ion-social-linkedin" /></a>
+      <a href="https://linkedin.com/in/duc-thomas-nguyen"><i class="ion-social-linkedin"></i></a>
     </li>
     <RectangleButton />
     <SponsorButton />

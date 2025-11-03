@@ -2,6 +2,11 @@
   import Header from "../components/Header.svelte";
   import Menu from "../components/Menu.svelte";
   import RoundButton from "../components/buyMeACoffee/RoundButton.svelte";
+  interface Props {
+    children?: import('svelte').Snippet;
+  }
+
+  let { children }: Props = $props();
 </script>
 
 <svelte:head>
@@ -16,7 +21,7 @@
     <Menu />
   </div>
 
-  <slot />
+  {@render children?.()}
 
   <footer>
     <div class="container-fluid">
@@ -25,7 +30,7 @@
       property of their respective owners.
     </div>
   </footer>
-  <a href="#0" class="cd-top"><i class="ion-android-arrow-up" /></a>
+  <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
 
   <RoundButton />
 </div>

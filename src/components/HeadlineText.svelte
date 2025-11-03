@@ -3,45 +3,53 @@
 </script>
 
 <div class="container">
-  <MediaQuery query="(max-width: 420px)" let:matches>
-    {#if matches}
-      <div class="message smallFontSize">
-        <p>code<span class="point">.</span></p>
-        <p>webdesign<span class="point">.</span></p>
-        <p>3D<span class="point">.</span></p>
-      </div>
-    {/if}
-  </MediaQuery>
+  <MediaQuery query="(max-width: 420px)" >
+    {#snippet children({ matches })}
+        {#if matches}
+        <div class="message smallFontSize">
+          <p>code<span class="point">.</span></p>
+          <p>webdesign<span class="point">.</span></p>
+          <p>3D<span class="point">.</span></p>
+        </div>
+      {/if}
+          {/snippet}
+    </MediaQuery>
 
-  <MediaQuery query="(min-width: 421px) and (max-width: 520px)" let:matches>
-    {#if matches}
-      <div class="message mediumFontSize">
-        <p>code<span class="point">.</span></p>
-        <p>webdesign<span class="point">.</span></p>
-        <p>3D<span class="point">.</span></p>
-      </div>
-    {/if}
-  </MediaQuery>
+  <MediaQuery query="(min-width: 421px) and (max-width: 520px)" >
+    {#snippet children({ matches })}
+        {#if matches}
+        <div class="message mediumFontSize">
+          <p>code<span class="point">.</span></p>
+          <p>webdesign<span class="point">.</span></p>
+          <p>3D<span class="point">.</span></p>
+        </div>
+      {/if}
+          {/snippet}
+    </MediaQuery>
 
-  <MediaQuery query="(min-width:521px) and (max-width: 670px)" let:matches>
-    {#if matches}
-      <div class="message largeFontSize">
-        <p>code<span class="point">.</span></p>
-        <p>webdesign<span class="point">.</span></p>
-        <p>3D<span class="point">.</span></p>
-      </div>
-    {/if}
-  </MediaQuery>
+  <MediaQuery query="(min-width:521px) and (max-width: 670px)" >
+    {#snippet children({ matches })}
+        {#if matches}
+        <div class="message largeFontSize">
+          <p>code<span class="point">.</span></p>
+          <p>webdesign<span class="point">.</span></p>
+          <p>3D<span class="point">.</span></p>
+        </div>
+      {/if}
+          {/snippet}
+    </MediaQuery>
 
-  <MediaQuery query="(min-width: 671px)" let:matches>
-    {#if matches}
-      <div class="message default">
-        <p>code<span class="point">.</span></p>
-        <p>webdesign<span class="point">.</span></p>
-        <p>3D<span class="point">.</span></p>
-      </div>
-    {/if}
-  </MediaQuery>
+  <MediaQuery query="(min-width: 671px)" >
+    {#snippet children({ matches })}
+        {#if matches}
+        <div class="message default">
+          <p>code<span class="point">.</span></p>
+          <p>webdesign<span class="point">.</span></p>
+          <p>3D<span class="point">.</span></p>
+        </div>
+      {/if}
+          {/snippet}
+    </MediaQuery>
 </div>
 
 <style>

@@ -17,12 +17,12 @@
   <div class="container main-container">
     <div class="col-md-12">
       <img src={project.image} alt="" class="img-responsive" />
-      <div class="h-30" />
+      <div class="h-30"></div>
     </div>
     <div class="col-md-12">
       <h3 class="text-uppercase">{project.title}</h3>
       <h5>{project.phrase}</h5>
-      <div class="h-30" />
+      <div class="h-30"></div>
     </div>
     <div class="col-md-9">
       <p>{project.description}</p>
@@ -30,10 +30,10 @@
     <div class="col-md-3">
       <ul class="cat-ul">
         {#each project.tags as tag}
-          <li><i class="ion-ios-circle-filled" />{tag.name}</li>
+          <li><i class="ion-ios-circle-filled"></i>{tag.name}</li>
         {/each}
       </ul>
-      <div class="h-10" />
+      <div class="h-10"></div>
       <ul class="cat-ul">
         {#if project.links}
           {#each project.links as link}
@@ -41,20 +41,20 @@
           {/each}
         {/if}
       </ul>
-      <div class="h-10" />
+      <div class="h-10"></div>
       <h4>Share</h4>
       <ul class="social-ul">
         <li class="box-social">
-          <a href="#0"><i class="ion-social-facebook" /></a>
+          <a href="#0"><i class="ion-social-facebook"></i></a>
         </li>
         <li class="box-social">
-          <a href="#0"><i class="ion-social-instagram-outline" /></a>
+          <a href="#0"><i class="ion-social-instagram-outline"></i></a>
         </li>
         <li class="box-social">
-          <a href="#0"><i class="ion-social-twitter" /></a>
+          <a href="#0"><i class="ion-social-twitter"></i></a>
         </li>
         <li class="box-social">
-          <a href="#0"><i class="ion-social-dribbble" /></a>
+          <a href="#0"><i class="ion-social-dribbble"></i></a>
         </li>
       </ul>
     </div>
@@ -83,5 +83,5 @@
       {/each}
     {/if}
   </div>
-  <a href="#0" class="cd-top"><i class="ion-android-arrow-up" /></a>
+  <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
 </div>

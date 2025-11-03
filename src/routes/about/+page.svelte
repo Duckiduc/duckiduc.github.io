@@ -10,20 +10,20 @@
     <div class="col-md-6">
       <h3 class="uppercase">Duc-Thomas Nguyen</h3>
       <h5>Creative and passionate developer</h5>
-      <div class="h-30" />
+      <div class="h-30"></div>
       <p>
         Hello! I’m a full stack developer & web designer from Paris, France. Besides that I am an
         engineering student in third year at EFREI Paris. I consider myself reliable and with a
         strong work ethic. I am currently working with a fantastic team at Touch and Sell.
       </p>
       <p>Outside work, I am a biker, downhill rider & 100m sprinter.</p>
-      <div class="h-10" />
+      <div class="h-10"></div>
       <ul class="social-ul">
         <li class="box-social">
-          <a href="https://github.com/Duckiduc"><i class="ion-social-github" /></a>
+          <a href="https://github.com/Duckiduc"><i class="ion-social-github"></i></a>
         </li>
         <li class="box-social">
-          <a href="https://linkedin.com/in/duc-thomas-nguyen"><i class="ion-social-linkedin" /></a>
+          <a href="https://linkedin.com/in/duc-thomas-nguyen"><i class="ion-social-linkedin"></i></a>
         </li>
       </ul>
     </div>
