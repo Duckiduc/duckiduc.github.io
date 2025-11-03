@@ -27,35 +27,35 @@
         <div class="categories-grid wow fadeInLeft">
           <nav class="categories text-center">
             <ul class="portfolio_filter">
-              <!-- svelte-ignore a11y-invalid-attribute -->
+              <!-- svelte-ignore a11y_invalid_attribute -->
               <li>
                 <a href="javascript:void(0);" class="active" data-filter="*">All</a>
               </li>
-              <!-- svelte-ignore a11y-invalid-attribute -->
+              <!-- svelte-ignore a11y_invalid_attribute -->
               <li>
                 <a href="javascript:void(0);" data-filter=".Code">Code</a>
               </li>
-              <!-- svelte-ignore a11y-invalid-attribute -->
+              <!-- svelte-ignore a11y_invalid_attribute -->
               <li>
                 <a href="javascript:void(0);" data-filter=".Webdesign">Webdesign</a>
               </li>
-              <!-- svelte-ignore a11y-invalid-attribute -->
+              <!-- svelte-ignore a11y_invalid_attribute -->
               <li>
                 <a href="javascript:void(0);" data-filter=".Mobile-app">Mobile App</a>
               </li>
-              <!-- svelte-ignore a11y-invalid-attribute -->
+              <!-- svelte-ignore a11y_invalid_attribute -->
               <li>
                 <a href="javascript:void(0);" data-filter=".Website">Website</a>
               </li>
-              <!-- svelte-ignore a11y-invalid-attribute -->
+              <!-- svelte-ignore a11y_invalid_attribute -->
               <li>
                 <a href="javascript:void(0);" data-filter=".Design">Design</a>
               </li>
-              <!-- svelte-ignore a11y-invalid-attribute -->
+              <!-- svelte-ignore a11y_invalid_attribute -->
               <li>
                 <a href="javascript:void(0);" data-filter=".Music">Music</a>
               </li>
-              <!-- svelte-ignore a11y-invalid-attribute -->
+              <!-- svelte-ignore a11y_invalid_attribute -->
               <li><a href="javascript:void(0);" data-filter=".Ads">Ads</a></li>
             </ul>
           </nav>

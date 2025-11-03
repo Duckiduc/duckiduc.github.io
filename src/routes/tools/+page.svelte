@@ -10,11 +10,11 @@
     <div class="col-md-8">
       <h3 class="uppercase">Operating Systems</h3>
       <h5>Mac OS as primary</h5>
-      <div class="h-10" />
+      <div class="h-10"></div>
       <p>I use Mac OS mostly for dev while I find it easier to use with dev related stuff.</p>
-      <div class="h-10" />
+      <div class="h-10"></div>
       <h5>Windows 10 as secondary (mostly for gaming and Windows specific stuff)</h5>
-      <div class="h-10" />
+      <div class="h-10"></div>
       <p>
         I use Windows 10 mainly for gaming as I find it slower than Mac OS (shortcuts, Alfred etc.).
       </p>
@@ -37,14 +37,14 @@
           <a href="https://iterm2.com" target="_blank" rel="noreferrer noopener">iTerm2</a> Terminal
         </h3>
         <h5>ZSH</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           I use <a href="https://ohmyz.sh" target="_blank" rel="noreferrer noopener">OhMyZsh</a> with
           iTerm.
         </p>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <h5>Theme</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           <a
             href="https://github.com/romkatv/powerlevel10k"
@@ -73,7 +73,7 @@
           > IDE
         </h3>
         <h5>Extensions</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           <a
             href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag"
@@ -165,9 +165,9 @@
             rel="noreferrer noopener">Vue 3 Snippets</a
           >
         </p>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <h5>Theme</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           <a
             href="https://github.com/rainglow/vscode/blob/master/themes/overflow.json"
@@ -194,7 +194,7 @@
           (Spotlight replacement)
         </h3>
         <h5>Features rich search tool</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys,
           keywords, text expansion and more. Search your Mac and the web, and be more productive
@@ -216,11 +216,11 @@
           > (Gist Manager)
         </h3>
         <h5>Democratizing Snippet Management (macOS/Win/Linux)</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>Lepton is a lean code snippet manager based on GitHub Gist.</p>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <h5>Features</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           Unlimited public/private snippets | Unlimited tags | Language groups |
           Markdown/JupyterNotebook support | GitHub Enterprise support | Customizable | Dashboard |
@@ -240,11 +240,11 @@
           > (MarkDown editor)
         </h3>
         <h5>The open source Markdown editor for macOS</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>MacDown is an open source Markdown editor for macOS, released under the MIT License.</p>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <h5>In the box</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           Highly customisable Markdown rendering | Syntax highlighting in fenced code blocks |
           Sophisticated auto-completion
@@ -261,7 +261,7 @@
           <a href="https://notion.so" target="_blank" rel="noreferrer noopener">Notion</a>
         </h3>
         <h5>All-in-one workspace</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           Describing Notion would be too long as it is a complex solution. But it allows me to work
           real fast and to organize all my work (solo or team). That is one of the most powerful
@@ -281,12 +281,12 @@
           > (Git GUI)
         </h3>
         <h5>Simplicity and power in a beautiful Git GUI</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           Sourcetree simplifies how you interact with your Git repositories so you can focus on
           coding. Visualize and manage your repositories through Sourcetree's simple Git GUI.
         </p>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           I use Sourcetree instead of git commands when doing complex git tasks or to visualize my
           git workflow.
@@ -304,12 +304,12 @@
           Client)
         </h3>
         <h5>Mac OS as primary</h5>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>
           Intelligent email prioritization, noise reduction, and the most advanced email tools at
           your disposal. Reach Inbox Zero for the first time.
         </p>
-        <div class="h-10" />
+        <div class="h-10"></div>
         <p>The best email client period. 💙</p>
       </div>
     </div>

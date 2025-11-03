@@ -1,13 +1,20 @@
 <script lang="ts">
+  import { run } from 'svelte/legacy';
+
   /* eslint-disable @typescript-eslint/no-explicit-any */
   import { onMount } from "svelte";
 
-  export let query: any;
+  interface Props {
+    query: any;
+    children?: import('svelte').Snippet<[any]>;
+  }
+
+  let { query, children }: Props = $props();
 
   let mql: any;
   let mqlListener: any;
-  let wasMounted = false;
-  let matches = false;
+  let wasMounted = $state(false);
+  let matches = $state(false);
 
   onMount(() => {
     wasMounted = true;
@@ -16,12 +23,6 @@
     };
   });
 
-  $: {
-    if (wasMounted) {
-      removeActiveListener();
-      addNewListener(query);
-    }
-  }
 
   function addNewListener(query: any) {
     mql = window.matchMedia(query);
@@ -35,6 +36,12 @@
       mql.removeListener(mqlListener);
     }
   }
+  run(() => {
+    if (wasMounted) {
+      removeActiveListener();
+      addNewListener(query);
+    }
+  });
 </script>
 
-<slot {matches} />
+{@render children?.({ matches, })}
