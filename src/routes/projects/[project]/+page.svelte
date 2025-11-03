@@ -3,7 +3,7 @@
   import { getProjects } from "../../../types/projectType";
 
   const projects = getProjects();
-  const project = projects.find(p => p.route === $page.params.project)!;
+  const project = projects.find((p) => p.route === $page.params.project)!;
 </script>
 
 <div>
@@ -45,16 +45,18 @@
       <h4>Share</h4>
       <ul class="social-ul">
         <li class="box-social">
-          <a href="#0"><i class="ion-social-facebook"></i></a>
+          <a href="#0" aria-label="Share on Facebook"><i class="ion-social-facebook"></i></a>
         </li>
         <li class="box-social">
-          <a href="#0"><i class="ion-social-instagram-outline"></i></a>
+          <a href="#0" aria-label="Share on Instagram"
+            ><i class="ion-social-instagram-outline"></i></a
+          >
         </li>
         <li class="box-social">
-          <a href="#0"><i class="ion-social-twitter"></i></a>
+          <a href="#0" aria-label="Share on Twitter"><i class="ion-social-twitter"></i></a>
         </li>
         <li class="box-social">
-          <a href="#0"><i class="ion-social-dribbble"></i></a>
+          <a href="#0" aria-label="Share on Dribbble"><i class="ion-social-dribbble"></i></a>
         </li>
       </ul>
     </div>
@@ -83,5 +85,5 @@
       {/each}
     {/if}
   </div>
-  <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+  <a href="#0" class="cd-top" aria-label="Back to top"><i class="ion-android-arrow-up"></i></a>
 </div>
